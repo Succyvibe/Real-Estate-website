@@ -61,7 +61,7 @@ export default function Listing() {
             <div
               className="relative w-full overflow-hidden h-[300px]"
               style={{
-                background: `url(${listing.imgUrls[index]}) center no-repeat`,
+                background: `url(${listing.imgUrls[index]}) center no-repeat height:100%; width:100%;`,
                 backgroundSize: "cover",
               }}
             ></div>
